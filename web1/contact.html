@@ -36,29 +36,39 @@
 			</div><!--container-->
 		</div><!--header nav-->
 	</header>
+
 	
- 	<div id="main-content">
+	<div id="main-content">
 		<div class="container">
-			<div class="col-md-3 col-sm-12 col-xs-12">
-				<h4>IT and Support</h4>
-				<div class="image1"></div>
-				<h4>IT Specialist</h4>
-				<p>Am a Cyber Security Expert and am here to protect your data. Am motivated to provide solutions to customer's security challanges.</p>
+			<div class="col-1">
+				<h3> Contact Us</h3>
+				<p>74 Packlane Drive, Los Angeles, United State of America.</p>
+				<p>Email:  </br>ictsolution@franknwa.com</p>
+				<p>Website: </br>  wwww.franknwa.com</p>
 			</div>
+			<div class="col-2">
+			<h3> Feed Back Form</h3>
+			<div id="msg_success"></div>
+			<div id="contact_form">
+				<h5>Contact Us</h5>
+				<form onsubmit ="return msgFunction();"  >
+				    <label for="name">Name</label>
+				    <input type="text" id="f_name" name="name" placeholder="Enter Name" required>
 
-			<div class="col-md-6 col-sm-12 col-xs-12">
-				<h4><br><!-- IT SECURITY SERVICE --></h4>
-				<div class="image2"></div>
-			</div>
+				    <label for="email">Email</label>
+				    <input type="text" id="email" name="email" placeholder="Enter Email" required>
+				    <label for="message">Message</label><br>
+				    <textarea required>Type Your Message here ...</textarea>
 
-			<div class="col-md-3 col-sm-12 col-xs-12">
-				<h4>What We Do  </h4>
-				<div class="image3"></div><br>
-				<p>We provide cutting edge technology in Cyber Security to protect your Web application, Mobile/Desktop App and Softwares securities. Some of this new technology forms our customer base strenght. </p> 
+				    <input type="submit" value="Submit" >
+
+				</form>
 			</div>
+			
 		</div>
-
-	</div><!-- main-content --> 
+		
+			
+	</div><!--main-content-->
 
 	<footer id="footer-content">
 		<div class="container">
@@ -66,9 +76,9 @@
 				<section id="social-media">
 					
 						<ul>
-							<li><a href="#"> <img src="image/fb.png" alt="fb" width="40px" height="40px"> </a></li>
-							<li><a href="#"> <img src="image/tw.png" alt="tw" width="40px" height="40px"> </a></li>
-							<li><a href="#"> <img src="image/ig.jpg" alt="ig" width="40px" height="40px"> </a></li>
+							<li><a href="#"> <img src="image/fb.png" alt="fb" width="50px" height="50px"> </a></li>
+							<li><a href="#"> <img src="image/tw.png" alt="tw" width="50px" height="50px"> </a></li>
+							<li><a href="#"> <img src="image/ig.jpg" alt="ig" width="50px" height="50px"> </a></li>
 						</ul>
 					
 				</section>
@@ -83,11 +93,7 @@
 		</div>
 		<div class="map"></div>
 
-	</footer> 
-
-
- <!-- jQuery (Boostrap) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+	</footer>
+</div>
 </body>
 </html>
