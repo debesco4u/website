@@ -1,0 +1,627 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  
+  a {
+    color: silver;
+  }
+
+  
+.showcase{
+        height: 250px;
+        width: 100%;
+        background:url(../images/showcase.jpg) no-repeat ;
+        background-size: cover;
+        background-position: center;
+        border-bottom: 2px solid rgb(97, 5, 23);
+}
+
+.showcase .container{
+    padding-top: 5%;
+    text-align: center;
+    color: silver;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.showcase .container h1{
+    font-weight: bolder;
+    font-size: 50px;
+    text-transform: uppercase;
+    border-bottom: 2px block rgb(189, 146, 154);
+}
+
+.showcase .container h3{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.showcase .container p{
+    margin: 10px 150px 0 150px ;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+        .services{
+        margin: 0px;
+        padding: 10px;
+        height: 630px;
+        border-bottom: 2px solid rgb(97, 5, 23);
+        background:#fff;
+    }
+
+.services .about .p1{
+    text-transform: uppercase;
+    color:silver;
+    font-size: small;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid rgb(97, 5, 23);
+    padding-bottom: 1%;
+}
+
+.services .about .p2{
+    text-transform: uppercase;
+    color:silver;
+    font-size: small;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid rgb(97, 5, 23);
+    padding-bottom: 1%;
+}
+
+.services .about ul{
+    width: 100%;
+    padding: 1%;
+    font-size: small;
+}
+
+.services .about ul li{
+    text-align: center;
+    font-size: medium;
+    height: 20px;
+    padding-top: 0.5%;
+    margin-left: 3.5%;
+    margin-bottom: 4px;
+    width: 90%;
+    background: rgb(243, 24, 68);
+    color:silver; 
+    list-style-type: none;
+    border-radius: 5px;
+}
+
+.services .service-heading{
+    padding: 7px 0 7px 0;
+    background: crimson;
+    border-top: 2px solid rgb(97, 5, 23);
+    border-bottom: 2px solid rgb(97, 5, 23);
+}
+
+.services .service-heading h5{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(53, 7, 16);
+    text-transform: capitalize;
+}
+
+.service-items{
+    margin-top: 2%;
+}
+.service-items .item{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.service-items .heading{
+    padding: 0.5%;
+    background: rgb(97, 5, 23) ;
+    color: silver;
+
+}
+.service-items p{
+    color: rgb(53, 7, 16);
+}
+
+.what-we-teach{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    color: silver;
+    margin-bottom: 200px;
+}
+.two, .three, .four{
+    width: 20%;
+    float: left;
+    margin-bottom: 30px;
+}
+.what-we-teach h4{
+    margin-top: 10px;
+}
+.what-we-teach .one{
+    background:  rgb(97, 5, 23);
+    padding: 5px;
+}
+.what-we-teach .two{
+    margin-left: 20%;
+    background:  rgb(131, 8, 33);
+    padding: 2px;
+}
+.what-we-teach .three{
+    background:  rgb(172, 10, 42);
+    padding: 2px;
+}
+.what-we-teach  .four{
+    background:  rgb(196, 13, 49);
+    padding: 2px;
+}
+
+
+.signup{
+    padding: 7px 0 7px 0;
+    background: crimson;
+}
+
+.signup .button{
+    margin-left: 47%;
+    border: none;
+    padding:5px;
+    border-radius: 5px;
+    background: rgb(97, 5, 23);
+    color: silver;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.signup .button:hover{
+    background:rgb(126, 14, 38);
+}
+.teachers{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    height: 200px;
+    
+
+}
+.teachers p{
+    margin-top: 2%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+}
+.btn-primary2 .btn2{
+  border-radius: 3px;
+  color: #fff;
+  background-color: #ffc55f;
+  border-color: #e7ad47;
+
+}
+.btn-primary2:hover, .btn-primary2:focus, .btn-primary2:active, .btn-primary2.active, .open>.dropdown-toggle.btn-primary2 {
+  color: #fff;
+  background-color: #fdbf51;
+  border-color: #e7ad47;
+
+}
+.boxn {
+  border: 1px solid black;
+  margin:30px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.boxn  p{
+  color: #fff;
+  background:  rgb(97, 5, 23);
+  text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    text-transform: capitalize;
+    border-bottom: 2px rgb(97, 5, 23) solid;
+}
+.serv {
+  color: #000;
+  text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+.boxn h4 {
+   text-transform: capitalize;
+    border-bottom: 2px rgb(97, 5, 23) solid;
+    text-align: center;
+}
+
+.boxes  p{
+  color: #fff;
+  background:  rgb(97, 5, 23);
+}
+.teachers .boxes{
+        height: 80px;
+        width: 15%;
+        float: left;
+        margin-left: 5%;
+
+}
+.teachers .box1{
+    margin-left: 12.5%;
+}
+.teachers h4{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    text-transform: capitalize;
+    border-bottom: 2px rgb(97, 5, 23) solid;
+
+}
+.photo{
+    height:100px;
+    background:rgb(97, 5, 23);
+    padding: 5px;
+    border-radius: 5px;
+}
+@media (max-width: 800px){
+    .showcase .container h1{
+        font-size: 30px;
+        padding-top: 13%;
+    }
+    .showcase .container h3{
+        font-size: 15px;
+    }
+    .showcase .container p{
+        font-size: 11px;
+        margin: 10px 20px 0 20px ;
+    }
+
+    .service-items{
+    margin-top: 2%;
+}
+.service-items .item{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.service-items .heading{
+    padding: 0.5%;
+    background: rgb(97, 5, 23) ;
+    color: silver;
+    font-size: smaller;
+
+}
+.service-items p{
+    color: rgb(53, 7, 16);
+    font-size: smaller;
+}
+
+.what-we-teach{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    color: silver;
+    margin-bottom: 200px;
+    font-size: smaller;
+}
+.two, .three, .four{
+    width: inherit;
+    float: none;
+    margin-bottom: 8px;
+    font-size: smaller;
+}
+.what-we-teach h4{
+    margin-top: 10px;
+}
+.what-we-teach .one{
+    background:  rgb(97, 5, 23);
+    padding: 5px;
+}
+.what-we-teach .two{
+    margin-left: 0%;
+    background:  rgb(131, 8, 33);
+    padding: 6px;
+}
+.what-we-teach .three{
+    background:  rgb(172, 10, 42);
+    padding: 6px;
+}
+.what-we-teach  .four{
+    background:  rgb(196, 13, 49);
+    padding: 6px;
+}
+
+
+    .teachers p{
+        font-size:;
+    }
+    .teachers h4{
+        font-size: small;
+    }
+    .services .about ul{
+    width: 98%;
+    padding: 1%;
+}
+
+.services .about ul li{
+    text-align: center;
+    font-size: x-small;
+    height: 28px;
+    padding-top: 0.5%;
+    padding-top: 0.5%;
+    margin-left: 0%;
+    margin-bottom: 4.5px;
+    width: 100%;
+    background: rgb(243, 24, 68);
+    color:rgb(53, 7, 16); 
+    list-style-type: none;
+    border-radius: 5px;
+    font-size: x-small;
+}
+.services .about .p1{
+    text-transform: uppercase;
+    color:rgb(53, 7, 16);
+    font-size: x-small;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid rgb(97, 5, 23);
+    padding-bottom: 1%;
+}
+
+.services .about .p2{
+    text-transform: uppercase;
+    color:rgb(53, 7, 16);
+    font-size: x-small;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid rgb(97, 5, 23);
+    padding-bottom: 1%;
+}
+}
+@media (max-width: 600px){
+    .teachers{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    height: 800px;
+}
+.teachers .boxes{
+        height: 80px;
+        width: 100%;
+        min-width: 60px;
+        float: none;
+        margin-bottom:2%;
+        margin-left: 8%;
+font-size: 50%;
+}
+.teachers .box1{
+    margin-left: 8%;}
+
+    .showcase .container{
+        padding-top: 15%;
+    }
+    
+    .showcase .container h1{
+        font-size: 15px;
+    }
+
+    .showcase .container p{
+        font-size: 8px;
+    }
+    
+    .photo{
+    height:80px;
+    background:rgb(97, 5, 23);
+    padding: 2px;
+    border-radius: 5px;
+    }
+    .teachers p{
+        font-size: 8px;
+    }
+}
+@media (max-width:335px){
+    .showcase .container{
+        padding-top: 30%;
+    }
+    .teachers .boxes{
+         font-size: 35px;
+       
+}
+}
+
+
+
+
+
+
+
+  /* header */
+  
+  .header {
+    background-color:rgb(97, 5, 23);
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    z-index: 3;
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: rgb(126, 21, 42);
+  }
+  
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid rgb(102, 15, 33);
+    text-decoration: none;
+    color: silver;
+  }
+  
+  .header li a:hover,
+  .header .menu-btn:hover {
+    background-color: #a53434;
+  }
+  
+  .header .logo {
+    font-style: italic;
+    display: block;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(231, 151, 151);
+    
+   
+  }
+  .logo span{
+    font-style:none;
+    font-size: 25px;
+    color: rgb(228, 172, 172);
+     
+  }
+  /* menu */
+  
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+  
+  /* menu icon */
+  
+  .header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .header .menu-icon .navicon {
+    background: silver;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: silver;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  /* menu btn */
+  
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  
+  /* 48em = 768px */
+  
+  @media (min-width: 48em) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+  }
+
+.copy{
+    height: 20px;
+    background:#000;
+    color: #fff;
+    text-align: center;
+}
+/*.col-sm-4 .col-md-4 {
+   width: 100%;
+    
+}*/
+ .blue {
+  
+    margin-bottom: 8px;
+    height: 55px;
+    /* margin-right: 5px;*/
+    background: navy;
+    color: #fff;
+    text-align: center;
+    /*padding-right: 10px;*/
+}
+
+.red {
+  height: 55px;
+      margin-bottom: 8px;
+      /*margin-right: 5px;*/
+    background: navy;
+    color: #fff;
+    text-align: center;
+    /*padding-right: 10px;*/
+}
+.center {
+  text-align: center;
+  color: #fff;
+  background: #a53434;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding: 12px;
+}
+
