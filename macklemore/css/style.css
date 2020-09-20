@@ -1,8 +1,8 @@
-*{
+/**{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}*/
 
   
   a {
@@ -31,6 +31,7 @@
     font-size: 50px;
     text-transform: uppercase;
     border-bottom: 2px block rgb(189, 146, 154);
+    word-spacing: 0.12em;
 }
 
 .showcase .container h3{
@@ -38,6 +39,7 @@
     font-size: 20px;
     margin-top: 15px;
     text-transform: uppercase;
+    word-spacing: 0.12em;
 }
 
 .showcase .container p{
@@ -598,7 +600,7 @@ font-size: 50%;
  .blue {
   
     margin-bottom: 8px;
-    height: 55px;
+    height: 68px;
     /* margin-right: 5px;*/
     background: navy;
     color: #fff;
@@ -607,7 +609,7 @@ font-size: 50%;
 }
 
 .red {
-  height: 55px;
+  height: 68px;
       margin-bottom: 8px;
       /*margin-right: 5px;*/
     background: navy;
