@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Comic Sans MS;
+}
+body > h6{
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 18px;
+  color: #502173;
+  background: pink;
+  display: none;
+  padding: 10px 0;
+}
+header{
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:pink ;
+}
+header h6{
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #502173;
+}
+header button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  text-transform: capitalize;
+  color: white;
+  background:#502173 ;
+}
+
+nav{
+  padding: 10px 20px;
+  background: #502173;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav ul a{
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 17px;
+  color: white;
+}
+
+footer{
+  background: pink;
+  padding: 20px 0 0 0;
+  color: #502173;
+}
+.footer-cont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-cont div{
+  width: 300px;
+}
+.footer-cont h6{
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #502173;
+}
+.footer-cont ul{
+  list-style: none;
+}
+.footer-cont a{
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #502173;
+}
+footer iframe{
+  width: 100%;
+  height: 100%;
+}
+
+iframe{
+  width: 100%;
+}
+
+@media(max-width:758px){
+  body > h6{
+    display: block;
+  }
+  .call{
+    display: none;
+  }
+  nav ul a{
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 13px;
+  color: white;
+}
+}

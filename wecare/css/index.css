@@ -1,0 +1,291 @@
+.hero{
+  width: 100vw;
+  height: 100vh;
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  //background: #502173;
+}
+.hero div{
+  width: 500px;
+}
+.hero-image img{
+  width: 100%;
+}
+.hero-title{
+  text-transform: capitalize;
+}
+.hero-title h5{
+  font-size: 35px;
+  color: #502173;
+}
+.hero-title h4{
+  font-size: 65px;
+  color: #502173;
+}
+.hero-title h6{
+  font-size: 20px;
+  color: #ea9aa8;
+}
+.hero-title p{
+  font-size: 16px;
+  color: black;
+}
+.about{
+  height: auto;
+  width: 100vw;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  background: #502173;
+}
+.about div{
+  width: 500px;
+}
+.about h6{
+  font-size: 28px;
+  margin-bottom: 20px;
+  //color: pink;
+  color: #ea9aa8;
+}
+.about p{
+  color: white;
+  //color: pink;
+  font-size: 16px;
+}
+.mode-of-operation{
+  width: 100%;
+  height: auto;
+  padding: 20px 20px;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+  background-image: url("../images/parallax.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mode-of-operation > h6{
+  font-size: 28px;
+  text-align: center;
+  color: #502173;
+  margin-bottom: 20px;
+  //text-shadow: -1px 1px 3px  #ea9aa8;
+}
+.mode-of-operation > div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: auto;
+}
+.mode-content{
+  width: 200px;
+  height: 200px;
+  background: #ea9aa8;
+  margin: 10px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.mode-content i{
+  font-size: 35px;
+  margin-bottom: 10px;
+  color: #502173;
+}
+.mode-content h6{
+  font-size: 15px;
+  text-align: center;
+  color: #502173;
+}
+
+.services{
+  padding: 20px 0;
+}
+.services > h6{
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 28px;
+  color: #502173;
+  margin-bottom: 20px;
+}
+.service-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+.service-content{
+  padding: 20px 20px;
+  margin: 10px;
+  width: 500px;
+  border-radius: 10px;
+  background: #502173;
+  height: 300px;
+}
+.service-content h6{
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #ea9aa8;
+  text-align: center;
+}
+.service-content p{
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.service-content ul{
+  list-style-image: url('../images/bullet.png');
+  list-style-position: inside;
+}
+.service-content li{
+  font-size: 15px;
+  color: white;
+}
+
+.contact1{
+  width: 100%;
+  height: auto;
+  background: #502173;
+  padding: 20px;
+}
+.contact-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.contact1 > h6{
+  font-size: 28px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ea9aa8;
+}
+.contact-form{
+  background: white;
+  padding: 10px;
+  width: 500px;
+  margin: 10px;
+}
+form{
+  width: 100%;
+  height: auto;
+}
+form h6{
+  font-size: 20px;
+  color: #502173;
+  text-align: center;
+  text-transform: capitalize;
+}
+form div{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+label{
+  color: #502173;
+  text-transform: capitalize;
+}
+input{
+  padding: 10px;
+  width: 100%;
+  border:1px solid #502173;
+  color: #502173;
+  text-transform: capitalize;
+}
+textarea{
+  width: 100%;
+  height: 150px;
+}
+.submit{
+  width: 100%;
+}
+form button{
+  //margin: 10px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-transform: capitalize;
+  font-size: 15px;
+  color: white;
+  background: #502173;
+}
+.info{
+  margin-bottom: 20px;
+  color: #ea9aa8;
+}
+.info ul{
+  list-style: none;
+}
+.info li{
+  margin-bottom: 15px;
+}
+.info i{
+  margin-bottom: 10px;
+}
+.times-active{
+  margin: 20px;
+  //color: #502173;
+  color: #ea9aa8;
+  text-transform: capitalize;
+}
+.times-active h6{
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #ea9aa8;
+}
+.times-active ul{
+  list-style: none;
+}
+.times-active li{
+  margin-bottom: 15px;
+}
+
+@media (max-width:1055px){
+  .hero{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .hero-image img{
+    max-width:500px;
+  }
+  .info{
+    margin-top: 20px;
+  }
+}
+@media(max-width:508px){
+   .hero-image img{
+    max-width:350px;
+    margin-top: 30px;
+  }
+  .about{
+    padding: 10px 20px;
+  }
+}
+@media(max-width:1039px){
+   .hero{
+     align-content: center;
+   }
+
+}

@@ -1,0 +1,106 @@
+.contact1{
+  width: 100%;
+  height: auto;
+  //background: #502173;
+  padding: 20px;
+  margin-top: 20px;
+}
+.contact-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.contact1 > h6{
+  font-size: 28px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ea9aa8;
+}
+.contact-form{
+  background: white;
+  padding: 10px;
+  width: 500px;
+  margin: 10px;
+  border:1px solid #502173;
+}
+form{
+  width: 100%;
+  height: auto;
+}
+form h6{
+  font-size: 20px;
+  color: #502173;
+  text-align: center;
+  text-transform: capitalize;
+}
+form div{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+label{
+  color: #502173;
+  text-transform: capitalize;
+}
+input{
+  padding: 10px;
+  width: 100%;
+  border:1px solid #502173;
+  color: #502173;
+  text-transform: capitalize;
+}
+textarea{
+  width: 100%;
+  height: 150px;
+}
+.submit{
+  width: 100%;
+}
+form button{
+  //margin: 10px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-transform: capitalize;
+  font-size: 15px;
+  color: white;
+  background: #502173;
+}
+.info{
+  margin-bottom: 20px;
+  //color: #ea9aa8;
+  color: #502173;
+}
+.info ul{
+  list-style: none;
+}
+.info li{
+  margin-bottom: 15px;
+}
+.info i{
+  margin-bottom: 10px;
+}
+.times-active{
+  margin: 20px;
+  color: #502173;
+  text-transform: capitalize;
+}
+.times-active h6{
+  font-size: 20px;
+  margin-bottom: 15px;
+  //color: #ea9aa8;
+  color: #502173;
+}
+.times-active ul{
+  list-style: none;
+}
+.times-active li{
+  margin-bottom: 15px;
+}
+@media (max-width:1055px){
+  .info{
+    margin-top: 20px;
+  }
+}
